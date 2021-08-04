@@ -1,54 +1,56 @@
-.flexbox-container{
+body{
+    padding: 100px;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.flexbox-item{
-    width: 450px;
-    height: 400px;
-    margin: 10px;
-    border: 1px solid black;
-}
-.flexbox-item-1{
-    position: relative;
+.box1{
     width: 400px;
     height: 400px;
     background: rgb(219, 20, 20);
-    left: 30%;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    border: 1px solid black;
 
 }
-.flexbox-item-2{
-    position: relative;
+.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 300px;
     height: 300px;
     background: rgb(121, 214, 14);
-    left: 32px;
-    top: 50px;
+    margin-top: 50px;
+    border: 1px solid black;
 }
-.flexbox-item-3{
-    position: relative;
+.box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 200px;
     height: 200px;
     background: rgb(223, 219, 15);
-    left: -240px;
-    top: 97px;
+    border: 1px solid black;
 }
-.flexbox-item-4{
-    position: relative;
+.box4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100px;
     height: 100px;
     background: rgb(27, 224, 132);
-    left: -410px;
-    top: 150px;
+    border: 1px solid black;
 }
 .button{
-    border-radius: 10px;
+    /* display: flex; */
     background: #000;
     color: white;
-    margin-left: 20px;
-    margin-top: 30px;
+    /* justify-content: center;
+    align-items: center; */
     cursor:pointer;
-    font-style: unset;
-    justify-content: center;
+
 }
 .button:hover{
     background-color: rgb(155, 65, 65);
